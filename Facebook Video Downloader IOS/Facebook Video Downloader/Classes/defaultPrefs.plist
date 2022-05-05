@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iCloudBackUpOn</key>
+	<true/>
+	<key>admobTurnedOn</key>
+	<true/>
+	<key>admobBannerViewID</key>
+	<string>ca-app-pub-7830525859625182/4506282359</string>
+	<key>admobInterstitialID</key>
+	<string>ca-app-pub-7830525859625182/5983015555</string>
+</dict>
+</plist>

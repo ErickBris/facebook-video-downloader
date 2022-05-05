@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C376B2E1B2BC3080021AB4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C376B2D1B2BC3080021AB4A /* main.m */; };
+		6C376B371B2BC3080021AB4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C376B351B2BC3080021AB4A /* Main.storyboard */; };
+		6C376B391B2BC3080021AB4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C376B381B2BC3080021AB4A /* Images.xcassets */; };
+		6C376B3C1B2BC3080021AB4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C376B3A1B2BC3080021AB4A /* LaunchScreen.xib */; };
+		6C376B711B2BC4540021AB4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C376B531B2BC4540021AB4A /* AppDelegate.m */; };
+		6C376B721B2BC4540021AB4A /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C376B551B2BC4540021AB4A /* CustomTableViewCell.m */; };
+		6C376B731B2BC4540021AB4A /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C376B571B2BC4540021AB4A /* FacebookViewController.m */; };
+		6C376B741B2BC4540021AB4A /* VideoLibraryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C376B591B2BC4540021AB4A /* VideoLibraryTableViewController.m */; };
+		6C376B751B2BC4540021AB4A /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C376B5B1B2BC4540021AB4A /* Back.png */; };
+		6C376B761B2BC4540021AB4A /* Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C376B5C1B2BC4540021AB4A /* Back@2x.png */; };
+		6C376B791B2BC4540021AB4A /* Downloading.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C376B5F1B2BC4540021AB4A /* Downloading.png */; };
+		6C376B7A1B2BC4540021AB4A /* Downloading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C376B601B2BC4540021AB4A /* Downloading@2x.png */; };
+		6C376B7B1B2BC4540021AB4A /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C376B611B2BC4540021AB4A /* Facebook.png */; };
+		6C376B7C1B2BC4540021AB4A /* Facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C376B621B2BC4540021AB4A /* Facebook@2x.png */; };
+		6C376B7D1B2BC4540021AB4A /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C376B631B2BC4540021AB4A /* Home.png */; };
+		6C376B7E1B2BC4540021AB4A /* Home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C376B641B2BC4540021AB4A /* Home@2x.png */; };
+		6C376B7F1B2BC4540021AB4A /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C376B651B2BC4540021AB4A /* play_button.png */; };
+		6C376B801B2BC4540021AB4A /* play_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C376B661B2BC4540021AB4A /* play_button@2x.png */; };
+		6C376B811B2BC4540021AB4A /* Videos.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C376B671B2BC4540021AB4A /* Videos.png */; };
+		6C376B821B2BC4540021AB4A /* Videos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C376B681B2BC4540021AB4A /* Videos@2x.png */; };
+		6C376B831B2BC4540021AB4A /* MZDownloadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C376B6C1B2BC4540021AB4A /* MZDownloadingCell.m */; };
+		6C376B841B2BC4540021AB4A /* MZDownloadManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C376B6E1B2BC4540021AB4A /* MZDownloadManagerViewController.m */; };
+		6C376B851B2BC4540021AB4A /* MZUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C376B701B2BC4540021AB4A /* MZUtility.m */; };
+		6C60B5F61B38A83200024279 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C60B5F41B38A81500024279 /* GoogleMobileAds.framework */; };
+		6CA9E3301B38838C000085CC /* NSFileManager+DoNotBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9E32D1B38838C000085CC /* NSFileManager+DoNotBackup.m */; };
+		6CA9E3311B38838C000085CC /* NSFileManagerDoNotBackup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9E32F1B38838C000085CC /* NSFileManagerDoNotBackup.m */; };
+		6CA9E3331B388E14000085CC /* defaultPrefs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CA9E3321B388E14000085CC /* defaultPrefs.plist */; };
+		6CA9E3371B3891D2000085CC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA9E3361B3891D2000085CC /* AdSupport.framework */; };
+		6CA9E3391B3891DA000085CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA9E3381B3891DA000085CC /* AudioToolbox.framework */; };
+		6CA9E33B1B3891E0000085CC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA9E33A1B3891E0000085CC /* AVFoundation.framework */; };
+		6CA9E33D1B3891E9000085CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA9E33C1B3891E9000085CC /* CoreGraphics.framework */; };
+		6CA9E33F1B3891EE000085CC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA9E33E1B3891EE000085CC /* CoreMedia.framework */; };
+		6CA9E3411B3891F5000085CC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA9E3401B3891F5000085CC /* CoreTelephony.framework */; };
+		6CA9E3441B3891FF000085CC /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA9E3421B3891FF000085CC /* EventKit.framework */; };
+		6CA9E3451B3891FF000085CC /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA9E3431B3891FF000085CC /* EventKitUI.framework */; };
+		6CA9E3471B389205000085CC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA9E3461B389205000085CC /* MessageUI.framework */; };
+		6CA9E3491B38920C000085CC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA9E3481B38920C000085CC /* StoreKit.framework */; };
+		6CA9E34B1B389216000085CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA9E34A1B389216000085CC /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C376B281B2BC3080021AB4A /* Facebook Video Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook Video Downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C376B2C1B2BC3080021AB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C376B2D1B2BC3080021AB4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C376B361B2BC3080021AB4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C376B381B2BC3080021AB4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6C376B3B1B2BC3080021AB4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6C376B521B2BC4540021AB4A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C376B531B2BC4540021AB4A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C376B541B2BC4540021AB4A /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		6C376B551B2BC4540021AB4A /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		6C376B561B2BC4540021AB4A /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
+		6C376B571B2BC4540021AB4A /* FacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookViewController.m; sourceTree = "<group>"; };
+		6C376B581B2BC4540021AB4A /* VideoLibraryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoLibraryTableViewController.h; sourceTree = "<group>"; };
+		6C376B591B2BC4540021AB4A /* VideoLibraryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoLibraryTableViewController.m; sourceTree = "<group>"; };
+		6C376B5B1B2BC4540021AB4A /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
+		6C376B5C1B2BC4540021AB4A /* Back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back@2x.png"; sourceTree = "<group>"; };
+		6C376B5F1B2BC4540021AB4A /* Downloading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Downloading.png; sourceTree = "<group>"; };
+		6C376B601B2BC4540021AB4A /* Downloading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Downloading@2x.png"; sourceTree = "<group>"; };
+		6C376B611B2BC4540021AB4A /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebook.png; sourceTree = "<group>"; };
+		6C376B621B2BC4540021AB4A /* Facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook@2x.png"; sourceTree = "<group>"; };
+		6C376B631B2BC4540021AB4A /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		6C376B641B2BC4540021AB4A /* Home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home@2x.png"; sourceTree = "<group>"; };
+		6C376B651B2BC4540021AB4A /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
+		6C376B661B2BC4540021AB4A /* play_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_button@2x.png"; sourceTree = "<group>"; };
+		6C376B671B2BC4540021AB4A /* Videos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Videos.png; sourceTree = "<group>"; };
+		6C376B681B2BC4540021AB4A /* Videos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Videos@2x.png"; sourceTree = "<group>"; };
+		6C376B6B1B2BC4540021AB4A /* MZDownloadingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDownloadingCell.h; sourceTree = "<group>"; };
+		6C376B6C1B2BC4540021AB4A /* MZDownloadingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDownloadingCell.m; sourceTree = "<group>"; };
+		6C376B6D1B2BC4540021AB4A /* MZDownloadManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDownloadManagerViewController.h; sourceTree = "<group>"; };
+		6C376B6E1B2BC4540021AB4A /* MZDownloadManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDownloadManagerViewController.m; sourceTree = "<group>"; };
+		6C376B6F1B2BC4540021AB4A /* MZUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZUtility.h; sourceTree = "<group>"; };
+		6C376B701B2BC4540021AB4A /* MZUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZUtility.m; sourceTree = "<group>"; };
+		6C60B5F41B38A81500024279 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		6CA9E32C1B38838C000085CC /* NSFileManager+DoNotBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DoNotBackup.h"; sourceTree = "<group>"; };
+		6CA9E32D1B38838C000085CC /* NSFileManager+DoNotBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DoNotBackup.m"; sourceTree = "<group>"; };
+		6CA9E32E1B38838C000085CC /* NSFileManagerDoNotBackup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFileManagerDoNotBackup.h; sourceTree = "<group>"; };
+		6CA9E32F1B38838C000085CC /* NSFileManagerDoNotBackup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFileManagerDoNotBackup.m; sourceTree = "<group>"; };
+		6CA9E3321B388E14000085CC /* defaultPrefs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = defaultPrefs.plist; sourceTree = "<group>"; };
+		6CA9E3361B3891D2000085CC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		6CA9E3381B3891DA000085CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6CA9E33A1B3891E0000085CC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6CA9E33C1B3891E9000085CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6CA9E33E1B3891EE000085CC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6CA9E3401B3891F5000085CC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6CA9E3421B3891FF000085CC /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		6CA9E3431B3891FF000085CC /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		6CA9E3461B389205000085CC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6CA9E3481B38920C000085CC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6CA9E34A1B389216000085CC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C376B251B2BC3080021AB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA9E34B1B389216000085CC /* SystemConfiguration.framework in Frameworks */,
+				6CA9E3491B38920C000085CC /* StoreKit.framework in Frameworks */,
+				6CA9E3471B389205000085CC /* MessageUI.framework in Frameworks */,
+				6CA9E3441B3891FF000085CC /* EventKit.framework in Frameworks */,
+				6CA9E3451B3891FF000085CC /* EventKitUI.framework in Frameworks */,
+				6CA9E3411B3891F5000085CC /* CoreTelephony.framework in Frameworks */,
+				6C60B5F61B38A83200024279 /* GoogleMobileAds.framework in Frameworks */,
+				6CA9E33F1B3891EE000085CC /* CoreMedia.framework in Frameworks */,
+				6CA9E33D1B3891E9000085CC /* CoreGraphics.framework in Frameworks */,
+				6CA9E33B1B3891E0000085CC /* AVFoundation.framework in Frameworks */,
+				6CA9E3391B3891DA000085CC /* AudioToolbox.framework in Frameworks */,
+				6CA9E3371B3891D2000085CC /* AdSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C376B1F1B2BC3080021AB4A = {
+			isa = PBXGroup;
+			children = (
+				6C376B2A1B2BC3080021AB4A /* Facebook Video Downloader */,
+				6C376B291B2BC3080021AB4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C376B291B2BC3080021AB4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C376B281B2BC3080021AB4A /* Facebook Video Downloader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C376B2A1B2BC3080021AB4A /* Facebook Video Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				6C376B511B2BC4540021AB4A /* Classes */,
+				6C376B5A1B2BC4540021AB4A /* Resources */,
+				6C376B691B2BC4540021AB4A /* Vendor */,
+				6C376B351B2BC3080021AB4A /* Main.storyboard */,
+				6C376B381B2BC3080021AB4A /* Images.xcassets */,
+				6C376B3A1B2BC3080021AB4A /* LaunchScreen.xib */,
+				6C376B2B1B2BC3080021AB4A /* Supporting Files */,
+			);
+			path = "Facebook Video Downloader";
+			sourceTree = "<group>";
+		};
+		6C376B2B1B2BC3080021AB4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CA9E34A1B389216000085CC /* SystemConfiguration.framework */,
+				6CA9E3481B38920C000085CC /* StoreKit.framework */,
+				6CA9E3461B389205000085CC /* MessageUI.framework */,
+				6CA9E3421B3891FF000085CC /* EventKit.framework */,
+				6CA9E3431B3891FF000085CC /* EventKitUI.framework */,
+				6CA9E3401B3891F5000085CC /* CoreTelephony.framework */,
+				6CA9E33E1B3891EE000085CC /* CoreMedia.framework */,
+				6CA9E33C1B3891E9000085CC /* CoreGraphics.framework */,
+				6CA9E33A1B3891E0000085CC /* AVFoundation.framework */,
+				6CA9E3381B3891DA000085CC /* AudioToolbox.framework */,
+				6CA9E3361B3891D2000085CC /* AdSupport.framework */,
+				6C376B2C1B2BC3080021AB4A /* Info.plist */,
+				6C376B2D1B2BC3080021AB4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C376B511B2BC4540021AB4A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6C60B5F41B38A81500024279 /* GoogleMobileAds.framework */,
+				6CA9E3321B388E14000085CC /* defaultPrefs.plist */,
+				6C376B521B2BC4540021AB4A /* AppDelegate.h */,
+				6C376B531B2BC4540021AB4A /* AppDelegate.m */,
+				6C376B541B2BC4540021AB4A /* CustomTableViewCell.h */,
+				6C376B551B2BC4540021AB4A /* CustomTableViewCell.m */,
+				6C376B561B2BC4540021AB4A /* FacebookViewController.h */,
+				6C376B571B2BC4540021AB4A /* FacebookViewController.m */,
+				6C376B581B2BC4540021AB4A /* VideoLibraryTableViewController.h */,
+				6C376B591B2BC4540021AB4A /* VideoLibraryTableViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6C376B5A1B2BC4540021AB4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C376B5B1B2BC4540021AB4A /* Back.png */,
+				6C376B5C1B2BC4540021AB4A /* Back@2x.png */,
+				6C376B5F1B2BC4540021AB4A /* Downloading.png */,
+				6C376B601B2BC4540021AB4A /* Downloading@2x.png */,
+				6C376B611B2BC4540021AB4A /* Facebook.png */,
+				6C376B621B2BC4540021AB4A /* Facebook@2x.png */,
+				6C376B631B2BC4540021AB4A /* Home.png */,
+				6C376B641B2BC4540021AB4A /* Home@2x.png */,
+				6C376B651B2BC4540021AB4A /* play_button.png */,
+				6C376B661B2BC4540021AB4A /* play_button@2x.png */,
+				6C376B671B2BC4540021AB4A /* Videos.png */,
+				6C376B681B2BC4540021AB4A /* Videos@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6C376B691B2BC4540021AB4A /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				6CA9E32B1B38838C000085CC /* No iCloud Backup */,
+				6C376B6A1B2BC4540021AB4A /* MZDownLoadManager */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		6C376B6A1B2BC4540021AB4A /* MZDownLoadManager */ = {
+			isa = PBXGroup;
+			children = (
+				6C376B6B1B2BC4540021AB4A /* MZDownloadingCell.h */,
+				6C376B6C1B2BC4540021AB4A /* MZDownloadingCell.m */,
+				6C376B6D1B2BC4540021AB4A /* MZDownloadManagerViewController.h */,
+				6C376B6E1B2BC4540021AB4A /* MZDownloadManagerViewController.m */,
+				6C376B6F1B2BC4540021AB4A /* MZUtility.h */,
+				6C376B701B2BC4540021AB4A /* MZUtility.m */,
+			);
+			path = MZDownLoadManager;
+			sourceTree = "<group>";
+		};
+		6CA9E32B1B38838C000085CC /* No iCloud Backup */ = {
+			isa = PBXGroup;
+			children = (
+				6CA9E32C1B38838C000085CC /* NSFileManager+DoNotBackup.h */,
+				6CA9E32D1B38838C000085CC /* NSFileManager+DoNotBackup.m */,
+				6CA9E32E1B38838C000085CC /* NSFileManagerDoNotBackup.h */,
+				6CA9E32F1B38838C000085CC /* NSFileManagerDoNotBackup.m */,
+			);
+			path = "No iCloud Backup";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C376B271B2BC3080021AB4A /* Facebook Video Downloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C376B4B1B2BC3080021AB4A /* Build configuration list for PBXNativeTarget "Facebook Video Downloader" */;
+			buildPhases = (
+				6C376B241B2BC3080021AB4A /* Sources */,
+				6C376B251B2BC3080021AB4A /* Frameworks */,
+				6C376B261B2BC3080021AB4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Facebook Video Downloader";
+			productName = "Facebook Video Downloader";
+			productReference = 6C376B281B2BC3080021AB4A /* Facebook Video Downloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C376B201B2BC3080021AB4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.PTS;
+				TargetAttributes = {
+					6C376B271B2BC3080021AB4A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 6C376B231B2BC3080021AB4A /* Build configuration list for PBXProject "Facebook Video Downloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C376B1F1B2BC3080021AB4A;
+			productRefGroup = 6C376B291B2BC3080021AB4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C376B271B2BC3080021AB4A /* Facebook Video Downloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C376B261B2BC3080021AB4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C376B801B2BC4540021AB4A /* play_button@2x.png in Resources */,
+				6CA9E3331B388E14000085CC /* defaultPrefs.plist in Resources */,
+				6C376B7D1B2BC4540021AB4A /* Home.png in Resources */,
+				6C376B7A1B2BC4540021AB4A /* Downloading@2x.png in Resources */,
+				6C376B7B1B2BC4540021AB4A /* Facebook.png in Resources */,
+				6C376B7C1B2BC4540021AB4A /* Facebook@2x.png in Resources */,
+				6C376B791B2BC4540021AB4A /* Downloading.png in Resources */,
+				6C376B811B2BC4540021AB4A /* Videos.png in Resources */,
+				6C376B7E1B2BC4540021AB4A /* Home@2x.png in Resources */,
+				6C376B751B2BC4540021AB4A /* Back.png in Resources */,
+				6C376B7F1B2BC4540021AB4A /* play_button.png in Resources */,
+				6C376B371B2BC3080021AB4A /* Main.storyboard in Resources */,
+				6C376B761B2BC4540021AB4A /* Back@2x.png in Resources */,
+				6C376B3C1B2BC3080021AB4A /* LaunchScreen.xib in Resources */,
+				6C376B391B2BC3080021AB4A /* Images.xcassets in Resources */,
+				6C376B821B2BC4540021AB4A /* Videos@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C376B241B2BC3080021AB4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C376B731B2BC4540021AB4A /* FacebookViewController.m in Sources */,
+				6CA9E3311B38838C000085CC /* NSFileManagerDoNotBackup.m in Sources */,
+				6C376B851B2BC4540021AB4A /* MZUtility.m in Sources */,
+				6C376B831B2BC4540021AB4A /* MZDownloadingCell.m in Sources */,
+				6C376B711B2BC4540021AB4A /* AppDelegate.m in Sources */,
+				6C376B2E1B2BC3080021AB4A /* main.m in Sources */,
+				6C376B841B2BC4540021AB4A /* MZDownloadManagerViewController.m in Sources */,
+				6C376B741B2BC4540021AB4A /* VideoLibraryTableViewController.m in Sources */,
+				6CA9E3301B38838C000085CC /* NSFileManager+DoNotBackup.m in Sources */,
+				6C376B721B2BC4540021AB4A /* CustomTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C376B351B2BC3080021AB4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C376B361B2BC3080021AB4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C376B3A1B2BC3080021AB4A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C376B3B1B2BC3080021AB4A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C376B491B2BC3080021AB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C376B4A1B2BC3080021AB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C376B4C1B2BC3080021AB4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "\"$(PROJECT_DIR)/Facebook Video Downloader/Classes\"";
+				INFOPLIST_FILE = "Facebook Video Downloader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		6C376B4D1B2BC3080021AB4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "\"$(PROJECT_DIR)/Facebook Video Downloader/Classes\"";
+				INFOPLIST_FILE = "Facebook Video Downloader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C376B231B2BC3080021AB4A /* Build configuration list for PBXProject "Facebook Video Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C376B491B2BC3080021AB4A /* Debug */,
+				6C376B4A1B2BC3080021AB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C376B4B1B2BC3080021AB4A /* Build configuration list for PBXNativeTarget "Facebook Video Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C376B4C1B2BC3080021AB4A /* Debug */,
+				6C376B4D1B2BC3080021AB4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C376B201B2BC3080021AB4A /* Project object */;
+}
